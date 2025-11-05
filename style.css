@@ -89,22 +89,13 @@ padding: auto;
 text-align: center;
 margin: 20px;
 }
-.img2 {
-
-display: block;
-margin: auto;
-border-radius: 10px;
-width: 500px;
-height: 300px;
-}
 div{
-    min-width: 320px;
-max-width: 1050px;
+width: 100%;
+max-width: 1050px; 
+height: auto ;
 background-color:var(--cor3);
 margin: auto;
 position: relative;
-margin-bottom: 20px;
-padding: 50px;
 border-radius: 20px;
 text-align: center;
 }
