@@ -89,15 +89,23 @@ padding: auto;
 text-align: center;
 margin: 20px;
 }
-div{
-width: 100%;
+div.video{
+min-width: 320px;
 max-width: 1050px; 
 height: auto ;
 background-color:var(--cor3);
-margin: auto;
+margin:auto;
 position: relative;
 border-radius: 20px;
-text-align: center;
+padding: 20px;
+padding-bottom: 50%;
+}
+div.video > iframe {
+position: absolute;
+top: 5%;
+left: 5%;
+width: 90%;
+height: 90%;
 }
 :root {
 --cor1:rgb(243, 77, 77);
